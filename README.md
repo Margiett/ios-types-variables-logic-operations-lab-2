@@ -22,7 +22,18 @@ var grade3 = 5.0
 
 // your code here
 ```
+let yourGrade = 6.3
 
+switch yourGrade {
+case 5..<9:
+  print("below adverage")
+case 7..<9:
+  print("below adverage")
+case 9:
+  print("above adverage")
+default:
+  print("yourGrade")
+}
 ***
 ## Question 2
 
@@ -33,6 +44,8 @@ let number = 2
 
 // your code here
 ```
+let number = 3
+print(number%2 == 0 ? "even" : "odd")
 
 ***
 ## Question 3
@@ -45,7 +58,10 @@ var b = 3
 
 // code here
 ```
-
+var a = 12
+var b = 3
+var number = a / b
+print(number%2 == 0 ? "divisible" : "not divisible")
 ***
 ## Question 4
 
