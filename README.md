@@ -98,6 +98,12 @@ let year = 2014
 
 // your code here
 ```
+The Answer is var leapYear =  2011
+var notLeapYear = 365
+var year = leapYear / 4
+
+print(year%4 == 1 ? "leapYear" : "notLeapYear")
+
 
 ***
 ## Question 7
@@ -139,6 +145,8 @@ d. (4 < 3 || 4 > 3) && ("Message: " == "Message: ")
 e. !(3 != 3)
 
 ```
+The Answer;
+A. , B. , D. , E. , 
 
 ***
 ## Question 10
@@ -241,6 +249,8 @@ c. n is a Decimal
 d. In is an Int
 
 ```
+The Answer : 
+D. 
 
 # Bonus 
 
@@ -249,13 +259,16 @@ d. In is an Int
 
 What are the differences between Double and Int in the numbers they can represent and how they store them?
 
-
+The Answer:
+A double is a precision, a floating point value type and a Inte is a sign of interger a value type. 
 ***
 ## Question 2 
 
 What are the differences between Float and Double?
 
+The Answer: 
 
+The difference between a Float and a Double is that a float is a "Single precision" and a double is a precision it can be more than one. 
 ***
 
 ## Question 3
